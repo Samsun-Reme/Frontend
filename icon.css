@@ -1,35 +1,69 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border box;
 }
-
 .dashboard{
     margin: auto;
-    width: 400px;
-    background-color: cadetblue;
-    box-shadow: rgba(0, 0, 0.24) 0px,3px,8px;
+    margin-top: 30px;
+    width: 450px;
+    padding: 40px;
+    
+    box-shadow: rgba(0,0,0.24) 0px 3px 8px;
+    border-radius: 5px;
+                                                                          
 }
-.dashboard.revenue{
-    box-shadow: rgba(0,0,0.24) 0px,3px,8px;
+.dashboard-inner{
+     margin-top: 20px;
+     display: flex;
+}
+
+.dashboard .revenue{
+    box-shadow: rgba(0,0,0.24) 0px 3px 8px;
     padding: 20px;
     border-radius: 5px;
+    margin-left: 10px;
+
 }
-.dashboard.revenue i.money-icon{
+.dashboard .revenue i#top-icon{
     font-size: 30px;
     background-color:#D2E6E3;
     color: #65A78E;
     padding: 10px;
     border-radius: 50px;    
 }
-.dashboard.revenue h1{
-    margin-top:20px;
+ h1 .heading{
+     margin-top: 20px; 
+     margin-left:-10;
+
 }
-.dashboard.revenue p#total-revenue{
-    color: #6f6f6f;
-    margin-bottom: 30px;
+.dashboard .revenue h1{
+    margin-top: 15px;
 }
-.dashboard.revenue i.up-arrow{
+.dashboard .revenue  p#total-revenue{
+color:#6f6f6f;
+margin-bottom: 30px;
   
     
+}
+.dashboard .revenue i.up-arrow,span{
+    color: #1a858d;
+}
+.dashboard .revenue .btn-group{
+    margin-top: 10px;
+    border: 1px solid #6f6f6f;
+    
+
+}
+.dashboard .revenue a{
+    border: 1px solide gray;
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 5px;
+    
+    
+}
+.dashboard .revenue i.long-arrow{
+    color: black;
 }
 
