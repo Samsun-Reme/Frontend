@@ -34,7 +34,7 @@
 }
  h1 .heading{
      margin-top: 20px; 
-     margin-left:-10;
+     margin-left:-10px;
 
 }
 .dashboard .revenue h1{
@@ -66,4 +66,5 @@ margin-bottom: 30px;
 .dashboard .revenue i.long-arrow{
     color: black;
 }
+
 
